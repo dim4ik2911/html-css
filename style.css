@@ -1,5 +1,4 @@
 * {
-  background-color: #000057;
   color: #00d6b8;
   font-family: Helvetica, Arial;
   margin: 0;
@@ -7,25 +6,46 @@
   box-sizing: border-box;
 }
 
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.container {
+  width: 1140px;
+  margin: 20px auto 0 auto;
+}
+
+.companies {
+  background-color: #0000d9;
+  width: 75%;
+  float: left;
+  padding-right: 30px;
+}
+
+.othercompanies {
+  background-color: #ce02e6;
+  width: 25%;
+  float: left;
+}
+
+.hero {
+  background-color: #9546ff;
+  border-top: 10px solid #555555;
+  padding-top: 20px;
+}
+
 h1 {
   font-size: 50px;
   text-align: center;
-  margin-top: 30px;
-  margin-bottom: 60px;
 }
 
 h2 {
   font-size: 40px;
   text-align: left;
-  margin: 15px 30px;
 }
 
 p {
   font-size: 18px;
   text-align: justify;
-  margin: 15px 30px;
-}
-
-img {
-  margin-left: 30px;
 }
