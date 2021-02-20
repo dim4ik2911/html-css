@@ -21,6 +21,7 @@
   width: 75%;
   float: left;
   padding-right: 30px;
+  position: relative;
 }
 
 .othercompanies {
@@ -33,6 +34,11 @@
   background-color: #9546ff;
   border-top: 10px solid #555555;
   padding-top: 20px;
+  overflow: hidden;
+}
+
+.other {
+  margin-bottom: 40px;
 }
 
 h1 {
@@ -45,7 +51,32 @@ h2 {
   text-align: left;
 }
 
-p {
+.companies p {
   font-size: 18px;
   text-align: justify;
+}
+
+.hero img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  float: left;
+}
+
+.hero p {
+  font-size: 22px;
+  float: left;
+  margin-top: 35px;
+  margin-left: 15px;
+}
+
+.companies img {
+  height: 250px;
+  width: auto;
+}
+
+.date {
+  position: absolute;
+  top: 75px;
+  right: 30px;
 }
